@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{ 
+  
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #F4F4F4;
+}
+
+/* NAV BAR CONFIG */
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 20px -7px rgba(161, 44, 219, 7%);
+    margin-bottom: 2px;
+}
+.logo{
+    margin-left: 10px ;
+    letter-spacing: 40px;
+    font-size: 2rem;
+}
+
+.contact-icon{
+    margin-right: 10px;
+    padding: 10px;
+   
+}
+
+.contact-icon a i {
+    padding: 10px;
+    background-color: #14203E;
+    border-radius: 50px;
+    color: #C5A495;
+}
+/*animacion de icono email*/
+.contact-icon a i.fa-solid:hover{
+    transform: scale(1.03);
+}
+.menu li a{
+    color: #14203E;
+    font-size: 1rem;
+}
+
+.menu  li{
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.link:after{
+    display: flex;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #97614B;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.link:hover:after{
+    width: 100%;
+    right: 0%;
+}
+
+
+.main{
+   
+    color: #14203E;
+   
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.profile-container{
+    padding: 10px;
+    width: 100% ;
+    background-color: #FFFCF8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
+    margin: 0 auto;
+}
+
+.profile-info{
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.profile-info p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.contact-btn{
+    padding: 4px;
+    color: #C5A495 ;
+    background-color: #14203E;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+
+.contact-btn:hover{
+    box-shadow: 3px 4px 3px #14203e42;
+    transform: scale(1.03);
+}
+
+.profile-photo{
+    margin-left: 20px;
+    width: 410px;
+    height: 420px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color:#C5A495;
+    margin-left: 40px;
+   
+}
+
+.profile-photo img{
+    width: 350px;
+    height: 400px;
+}
+
+
