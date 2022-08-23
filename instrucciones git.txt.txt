@@ -1,0 +1,5 @@
+git status para ver los cambios
+git add archivomodificado o  git add . para todos los archivos
+git diff para ver las diferencias entre el codigo normal y el de stagge
+git commit -m "mensaje"
+git push para mandarlo al git hub
